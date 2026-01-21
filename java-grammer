@@ -1,0 +1,11 @@
+Java grammer
+
+[화면에서 입력받기] - Scanner
+Scanner scanner = new Scanner(System.in); -> Scanner클래스의 객체를 생성 /System.in은 화면을 나타냄
+  
+String input = scanner.nextLine(); -> 입력받은 내용을 input문자열 변수에 저장
+int num = Integer.parseInt(input); -> 입력받은 내용(문자열)을 int타입의 값으로 변환
+(Double.parseDouble(), Boolean.parseBoolean(), Long.parseLong())
+---> int num = scanner.nextInt(); 정수를 입력받아서 변수num에 저장
+(scanner.nextDouble(실수), nextLine(문자열) ...)
+  
