@@ -9,3 +9,12 @@ int num = Integer.parseInt(input); -> 입력받은 내용(문자열)을 int타�
 ---> int num = scanner.nextInt(); 정수를 입력받아서 변수num에 저장
 (scanner.nextDouble(실수), nextLine(문자열) ...)
   
+[변수 OverFlow]
+최대값 + 1 => 최소값
+최소값 - 1 => 최대값
+ex) 1111 + 1 => 0000
+    0000 -1 => 1111
+--> 부호가 있는 경우
+ex) 0111 + 1 => 1000
+    1000 - 1 => 0111
+--> 부호가 없는 경우
