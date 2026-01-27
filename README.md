@@ -1,2 +1,2 @@
 # java-basic
-Personal java-practice
+Personal java-practice/ for study place
