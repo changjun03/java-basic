@@ -1,4 +1,4 @@
-Java grammer
+Java grammer - Java의 정석 남궁성님의 강의자료를 참고하여 작성하는 내용입니다.
 
 [화면에서 입력받기] - Scanner
 Scanner scanner = new Scanner(System.in); -> Scanner클래스의 객체를 생성 /System.in은 화면을 나타냄
@@ -26,3 +26,25 @@ ex) 0111 + 1 => 1000
 
 [상수 선언 시]
 final을 붙여 선언, ex) final int a = 1;, final double b = 3.14;
+
+<조건문, 반복문>
+if 문 - if (조건식) {
+         // 참일 경우 실행할 문장    
+        } else if(조건식) {
+         // 다른 조건이 참일 경우 실행할 문장
+        } else {
+        // 모든 조건이 거짓일 경우 실행할 문장
+        }
+
+switch 문 - switch(조건식) {
+                case 값1 :
+                  // 조건식의 결과가 값1과 같을 경우 수행될 문장들
+                  break;
+                case 값2 :
+                  // 조건식의 결과가 값2와 같을 경우 수행될 문장들
+                  break;
+                default :
+                  // 조건식의 결과와 일치하는 case문이 없을 때 수행될 문장들
+
+
+
