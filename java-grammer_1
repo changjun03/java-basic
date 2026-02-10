@@ -1,4 +1,4 @@
-Java grammer - Java의 정석 남궁성님의 강의자료를 참고하여 작성하는 내용입니다.
+Java grammer - Java의 정석 남궁성님의 강의자료를 참고하여 작성하는 내용입니다.(배열 이전까지의 내용)
 
 [화면에서 입력받기] - Scanner
 Scanner scanner = new Scanner(System.in); -> Scanner클래스의 객체를 생성 /System.in은 화면을 나타냄
